@@ -10,6 +10,7 @@ import SocialFeed from './SocialFeed'
 function Home() {
     return (
         <div className='color-bgColor-100'>
+            hi
         <Hero />
         <ThemenKacheln />
         <Reiseangebote />

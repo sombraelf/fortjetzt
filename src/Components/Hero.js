@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="container mx-auto h-full flex items-center justify-center px-4 relative z-20">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl text-textColor-100 font-bold">
-            Willkommen bei Fortjetzt
+            Willkommen bei Fortjetzt!
           </h1>
           <p className="mt-4 text-lg md:text-xl text-textColor-100">
             Entdecke die besten Reiseziele und erlebe unvergessliche Momente
