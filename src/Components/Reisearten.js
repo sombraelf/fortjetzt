@@ -39,7 +39,7 @@ function Reisearten() {
                             kategorie="Regionaltouren"
                             reisen={[
                                 {
-                                    title: "Harz: Natur erleben",
+                                    title: "Harz: Natur erleben und einfach mal Abschalten",
                                     imageUrl: "harz.png",
                                     price: "299€",
                                     link: "/reise/harz",
@@ -51,7 +51,7 @@ function Reisearten() {
                                     link: "/reise/thueringer-wald",
                                 },
                                 {
-                                    title: "Spreewald: Kanufahren und Genießen",
+                                    title: "Spreewald: Kanufahren und die Vielfalt Genießen",
                                     imageUrl: "spreewald.png",
                                     price: "499€",
                                     link: "/reise/spreewald",
@@ -97,7 +97,7 @@ function Reisearten() {
                             kategorie="Eventreisen"
                             reisen={[
                                 {
-                                    title: "Oktoberfest: Bier, Brezn und Blasmusik",
+                                    title: "Oktoberfest:  Eine Welt voller Bier, Brezn und Blasmusik",
                                     imageUrl: "oktoberfest.png",
                                     price: "399€",
                                     link: "/reise/oktoberfest",

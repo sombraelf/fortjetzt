@@ -16,11 +16,12 @@ const Header = () => {
         <nav className="flex items-center justify-between">
           <div className="flex items-center">
             {/* Logo */}
+            <Link to="/">
             <img
-              src="path/to/logo.svg"
+              src="/logo.png"
               alt="Fortjetzt"
               className="w-15 h-10 mr-4"
-            />
+            /></Link>
           </div>
           {/* Hamburger-Menü für kleine Bildschirme */}
           <div className="md:hidden">
@@ -58,7 +59,7 @@ const Header = () => {
           </ul>
           {/* Login Button */}
           <div className="hidden md:block">
-            <Link to="/login" className="bg-textColor-100 text-bgColor-100 px-4 py-2 rounded font-semibold hover:bg-primaryColor-200">
+            <Link to="/login" className="bg-ctaColor-100 text-bgColor-100 px-4 py-2 rounded font-semibold hover:bg-primaryColor-200">
               Login
             </Link>
           </div>
@@ -116,7 +117,7 @@ const Header = () => {
               <Link
                 onClick={toggleMenu}
                 to="/login"
-                className="bg-textColor-100 text-bgColor-100 px-4 py-2 ml-3 rounded font-semibold hover:bg-primaryColor-200"
+                className="bg-ctaColor-100 text-bgColor-100 px-4 py-2 ml-3 rounded font-semibold hover:bg-primaryColor-200"
               >
                 Login
               </Link>

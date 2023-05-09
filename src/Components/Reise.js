@@ -49,7 +49,7 @@ const Reise = ({ title, location, duration, price, imageUrl, description }) => {
           <p className="text-lg text-textColor-100 leading-7 mt-4">
             <span className="font-semibold">Beschreibung:</span> {description}
           </p>
-          <button className="bg-textColor-100 text-bgColor-100 px-4 py-2 rounded font-semibold hover:bg-primaryColor-200 mt-4">
+          <button className="bg-ctaColor-100 text-bgColor-100 px-4 py-2 rounded font-semibold hover:bg-primaryColor-200 mt-4">
             Buchen
           </button>
         </div>

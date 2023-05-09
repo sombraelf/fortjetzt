@@ -6,7 +6,7 @@ const Contact = () => {
       <h2 className="text-3xl font-bold text-textColor-100 mb-8">
         Kontaktieren Sie uns
       </h2>
-      <form className="max-w-2xl mx-auto">
+      <form className="max-w-2xl mx-auto px-4 my-12">
         <div className="mb-4">
           <label htmlFor="name" className="block text-lg font-semibold text-textColor-100 mb-2">
             Name

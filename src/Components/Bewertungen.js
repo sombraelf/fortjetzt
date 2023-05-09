@@ -27,7 +27,7 @@ const Bewertungen = () => {
 
   return (
     <div className="container mx-auto py-16 px-4">
-      <h2 className="text-3xl font-bold text-center text-primaryColor-100 mb-8">
+      <h2 className="text-3xl font-bold text-center text-textColor-100 mb-8">
         Was unsere Kunden auf ihrer Reise erlebt haben 🌍😍
       </h2>
       <div className="flex items-center justify-center mb-12">

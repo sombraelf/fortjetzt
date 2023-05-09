@@ -16,6 +16,9 @@ module.exports = {
         "secondaryColor": {
           100: "#87b0d6"
         },
+        "ctaColor": {
+          100: "#f08c1a"
+        },
 
       },
     },
