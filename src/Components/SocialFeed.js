@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SocialFeed = () => {
   const images = [
@@ -15,12 +16,14 @@ const SocialFeed = () => {
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {images.map((image, index) => (
+          <Link to="/reise/paris">
           <img
             key={index}
             src={image}
             alt={`Instagram post ${index}`}
             className="w-full h-full object-cover"
           />
+          </Link>
         ))}
       </div>
     </div>
